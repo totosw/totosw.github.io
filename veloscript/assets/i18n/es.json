@@ -16,6 +16,10 @@
     "loadRoute": "Cargar Ruta",
     "loadWorkout": "Cargar Entrenamiento",
     "zenMode": "Modo Zen",
+    "enterFullscreen": "Pantalla completa",
+    "exitFullscreen": "Salir de pantalla completa",
+    "installApp": "Instalar aplicación",
+    "installIosHint": "Para instalar en iPhone: toca Compartir y luego «Añadir a pantalla de inicio».",
     "engine3d": "Motor 3D",
     "config": "Configuración",
     "help": "Guía de ayuda",
@@ -485,6 +489,10 @@
         "zenMode": {
           "title": "Modo Zen",
           "desc": "Oculta toda la interfaz para pedalear sin distracciones y centrarte en la ruta 3D."
+        },
+        "fullscreen": {
+          "title": "Pantalla completa",
+          "desc": "Amplía la vista para pedalear a pantalla completa. Vuelve a pulsarlo para salir."
         },
         "engine3d": {
           "title": "Motor 3D",

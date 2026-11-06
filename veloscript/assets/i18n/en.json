@@ -16,6 +16,10 @@
     "loadRoute": "Load route",
     "loadWorkout": "Load workout",
     "zenMode": "Zen mode",
+    "enterFullscreen": "Full screen",
+    "exitFullscreen": "Exit full screen",
+    "installApp": "Install app",
+    "installIosHint": "To install on iPhone: tap Share, then \"Add to Home Screen\".",
     "engine3d": "3D engine",
     "config": "Settings",
     "help": "Help guide",
@@ -485,6 +489,10 @@
         "zenMode": {
           "title": "Zen mode",
           "desc": "Hides the whole interface to pedal without distractions and focus on the 3D route."
+        },
+        "fullscreen": {
+          "title": "Full screen",
+          "desc": "Expands the view for full-screen riding. Press it again to exit."
         },
         "engine3d": {
           "title": "3D engine",

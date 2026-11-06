@@ -16,6 +16,10 @@
     "loadRoute": "Carregar ruta",
     "loadWorkout": "Carregar entrenament",
     "zenMode": "Mode Zen",
+    "enterFullscreen": "Pantalla completa",
+    "exitFullscreen": "Sortir de pantalla completa",
+    "installApp": "Instal·lar aplicació",
+    "installIosHint": "Per instal·lar a l'iPhone: toca Compartir i després «Afegir a la pantalla d'inici».",
     "engine3d": "Motor 3D",
     "config": "Configuració",
     "help": "Guia d'ajuda",
@@ -485,6 +489,10 @@
         "zenMode": {
           "title": "Mode Zen",
           "desc": "Amaga tota la interfície per pedalar sense distraccions i centrar-te en la ruta 3D."
+        },
+        "fullscreen": {
+          "title": "Pantalla completa",
+          "desc": "Amplia la vista per pedalar a pantalla completa. Torna a prémer-lo per sortir."
         },
         "engine3d": {
           "title": "Motor 3D",
