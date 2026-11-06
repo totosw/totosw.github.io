@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VeloScript y Kalimbapp · Ciclismo y kalimba gratis</title>
+  <meta name="description" content="VeloScript convierte tu rodillo en rutas 3D y entrenamientos por potencia. Kalimbapp enseña kalimba con un juego visual. Gratis, sin anuncios ni registro.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://totosw.github.io/">
+  <meta name="theme-color" content="#121512">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="totosw">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="VeloScript y Kalimbapp · Ciclismo y kalimba gratis">
+  <meta property="og:description" content="Dos apps gratuitas y sin anuncios: entrenamiento de ciclismo virtual y aprendizaje de kalimba con notas tipo juego.">
+  <meta property="og:url" content="https://totosw.github.io/">
+  <meta property="og:image" content="https://totosw.github.io/assets/og-cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="VeloScript y Kalimbapp, dos apps gratuitas y sin anuncios.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VeloScript y Kalimbapp · Ciclismo y kalimba gratis">
+  <meta name="twitter:description" content="Dos apps gratuitas y sin anuncios: entrenamiento de ciclismo virtual y aprendizaje de kalimba con notas tipo juego.">
+  <meta name="twitter:image" content="https://totosw.github.io/assets/og-cover.png">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" hreflang="es" href="https://totosw.github.io/">
+  <link rel="alternate" hreflang="x-default" href="https://totosw.github.io/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://totosw.github.io/#website",
+        "url": "https://totosw.github.io/",
+        "name": "totosw",
+        "description": "Apps gratuitas y sin anuncios para ciclismo virtual y kalimba.",
+        "inLanguage": "es",
+        "publisher": { "@id": "https://totosw.github.io/#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://totosw.github.io/#organization",
+        "name": "totosw",
+        "url": "https://totosw.github.io/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://totosw.github.io/assets/favicon.svg"
+        },
+        "description": "Proyectos web independientes, gratuitos y sin publicidad."
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://totosw.github.io/#webpage",
+        "url": "https://totosw.github.io/",
+        "name": "VeloScript y Kalimbapp · Ciclismo y kalimba gratis",
+        "description": "VeloScript convierte tu rodillo en rutas 3D con entrenamientos por potencia. Kalimbapp te enseña kalimba con un juego visual. Gratis, sin anuncios y sin registro.",
+        "isPartOf": { "@id": "https://totosw.github.io/#website" },
+        "about": [
+          { "@id": "https://totosw.github.io/veloscript/#software" },
+          { "@id": "https://totosw.github.io/kalimbaka/#software" }
+        ],
+        "inLanguage": "es",
+        "dateModified": "2026-11-06"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://totosw.github.io/veloscript/#software",
+        "name": "VeloScript",
+        "alternateName": "Veloscript",
+        "applicationCategory": "SportsApplication",
+        "applicationSubCategory": "Entrenador de ciclismo virtual",
+        "operatingSystem": "Web",
+        "browserRequirements": "Navegador moderno con WebGL. Web Bluetooth para conectar rodillos y sensores.",
+        "url": "https://totosw.github.io/veloscript/",
+        "image": "https://totosw.github.io/assets/veloscript-mark.png",
+        "description": "Entrenador de ciclismo virtual gratuito para navegador. Convierte rutas GPX, KML y KMZ en recorridos 3D, conecta tu rodillo Bluetooth y entrena con potencia, cadencia y física de la ruta.",
+        "isAccessibleForFree": true,
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "featureList": [
+          "Rutas 3D con Three.js o MapLibre",
+          "Importación de GPX, KML y KMZ",
+          "Rodillo y cadencia por Bluetooth",
+          "Entrenamientos estructurados por potencia y zonas FTP",
+          "Física de ciclismo con peso, viento, pendiente, CdA y Crr",
+          "Cambios virtuales, modos ERG y resistencia",
+          "Estadísticas de sesión y perfil de ruta",
+          "Instalable como PWA"
+        ],
+        "publisher": { "@id": "https://totosw.github.io/#organization" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://totosw.github.io/kalimbaka/#software",
+        "name": "Kalimbapp",
+        "alternateName": "Kalimbaka",
+        "applicationCategory": "MusicApplication",
+        "applicationSubCategory": "Aprendizaje de kalimba",
+        "operatingSystem": "Web",
+        "browserRequirements": "Navegador moderno con WebAudio. Funciona offline tras la instalación.",
+        "url": "https://totosw.github.io/kalimbaka/",
+        "image": "https://totosw.github.io/assets/kalimbapp-mark.png",
+        "description": "Guía visual gratuita para tocar la kalimba. Las notas caen por el carril de cada tecla, con tabs numéricos, sonido sintetizado, metrónomo e importación de MIDI y MusicXML.",
+        "isAccessibleForFree": true,
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        },
+        "featureList": [
+          "Guía visual con notas que caen por carriles",
+          "Kalimbas de 8, 17 y 21 teclas en Do mayor",
+          "Tabs numéricos de texto",
+          "Importación de MIDI y MusicXML",
+          "Biblioteca con búsqueda, grupos y favoritos",
+          "Modo libre, metrónomo y sonido con WebAudio",
+          "Calibración de pantalla",
+          "Funciona offline y es instalable como PWA"
+        ],
+        "publisher": { "@id": "https://totosw.github.io/#organization" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://totosw.github.io/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿VeloScript y Kalimbapp son realmente gratis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Las dos aplicaciones se pueden usar completas sin pagar, sin suscripción y sin anuncios. No hay una versión premium oculta ni compras dentro de la app."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Necesito crear una cuenta para usar VeloScript o Kalimbapp?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. No hay registro ni inicio de sesión. La configuración, las rutas importadas y los favoritos se guardan en el almacenamiento local del navegador."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Se pueden instalar como aplicación?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. Ambas incluyen un manifest PWA y se pueden añadir a la pantalla de inicio desde un navegador compatible. En Android y escritorio aparece la opción de instalar; en iPhone o iPad se usa Compartir y Añadir a pantalla de inicio."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Funcionan sin conexión?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kalimbapp funciona offline después de instalarse: su service worker cachea la aplicación y las canciones de demostración. VeloScript necesita conexión para cargar mapas, teselas y rutas, aunque se puede instalar como acceso directo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué rodillo necesito para VeloScript?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "VeloScript utiliza Web Bluetooth para conectar rodillos y sensores compatibles. También incluye un modo de simulación para probar la interfaz y la física sin dispositivo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué kalimbas soporta Kalimbapp?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kalimbapp está pensada para kalimbas diatónicas en Do mayor de 8, 17 y 21 teclas. Los tabs de 17 teclas también funcionan en una kalimba de 21."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo importar mis propias rutas o canciones?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí. VeloScript acepta archivos GPX, KML y KMZ. Kalimbapp acepta tabs de texto, archivos MIDI y partituras MusicXML, además de bibliotecas JSON."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Dónde se guardan mis datos?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "En tu navegador. Ninguna de las dos aplicaciones necesita un backend para funcionar y no se crea una cuenta en la nube."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="brand" href="/" aria-label="totosw, inicio">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="16" fill="#121512"/>
+          <path d="M13 38c5-13 9-2 14-8s7-1 12-7 6-3 12-8" fill="none" stroke="#6fe7ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M13 47h38M13 53h38" fill="none" stroke="#ff6846" stroke-width="2.4" stroke-linecap="round" opacity=".9"/>
+          <circle cx="39" cy="39" r="3.2" fill="#c9f25b"/>
+        </svg>
+        <span class="brand-copy">
+          <span class="brand-name">totosw</span>
+          <span class="brand-sub">apps para fluir</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#veloscript">VeloScript</a>
+        <a href="#kalimbapp">Kalimbapp</a>
+        <a href="#comparativa">Comparativa</a>
+        <a href="#faq">Preguntas</a>
+      </nav>
+
+      <a class="header-cta" href="#proyectos">Ver apps <span aria-hidden="true">↓</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker"><span class="kicker-dot" aria-hidden="true"></span> Apps independientes · 100% gratis</p>
+          <h1 id="hero-title">
+            <span class="h1-line">VeloScript</span>
+            <span class="h1-line h1-line--second"><em>y</em> Kalimbapp</span>
+            <span class="h1-sub">Dos formas de entrar en flow. Cero anuncios.</span>
+          </h1>
+          <p class="hero-lead">Convierte tu rodillo en una ruta 3D o aprende kalimba con notas que caen como en un juego. Sin suscripciones, sin publicidad y sin crear una cuenta.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn--ride" href="/veloscript/">Probar VeloScript <span aria-hidden="true">→</span></a>
+            <a class="btn btn--play" href="/kalimbaka/">Abrir Kalimbapp <span aria-hidden="true">→</span></a>
+          </div>
+
+          <dl class="proof">
+            <div><dt>Precio</dt><dd>0 €</dd></div>
+            <div><dt>Anuncios</dt><dd>0</dd></div>
+            <div><dt>Cuentas</dt><dd>0</dd></div>
+            <div><dt>Datos</dt><dd>En tu navegador</dd></div>
+          </dl>
+        </div>
+
+        <div class="hero-stage" aria-hidden="true">
+          <svg class="stage-flow" viewBox="0 0 640 680" fill="none">
+            <path d="M42 530C155 370 260 560 340 410C420 260 500 290 602 150" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 9" stroke-linecap="round"/>
+            <circle cx="340" cy="410" r="5" fill="currentColor"/>
+          </svg>
+
+          <article class="device device--ride">
+            <div class="device-bar">
+              <span class="device-dot device-dot--blue"></span>
+              <span>VeloScript</span>
+              <span class="device-state">LIVE</span>
+            </div>
+            <div class="ride-hud">
+              <div class="ride-power">
+                <span class="micro-label">Potencia</span>
+                <strong>248<small>W</small></strong>
+              </div>
+              <div class="ride-splits">
+                <span>32,4<small>km/h</small></span>
+                <span>92<small>rpm</small></span>
+                <span>6,8<small>%</small></span>
+              </div>
+            </div>
+            <svg class="ride-profile" viewBox="0 0 430 150" fill="none">
+              <defs>
+                <linearGradient id="ride-fill" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#6fe7ff" stop-opacity=".42"/>
+                  <stop offset="1" stop-color="#6fe7ff" stop-opacity="0"/>
+                </linearGradient>
+                <linearGradient id="ride-stroke" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0" stop-color="#6fe7ff"/>
+                  <stop offset=".55" stop-color="#a9a8ff"/>
+                  <stop offset="1" stop-color="#ff8b6f"/>
+                </linearGradient>
+              </defs>
+              <path d="M0 118H430M0 84H430M0 50H430M0 16H430" stroke="#8fa8d8" stroke-opacity=".13"/>
+              <path d="M0 126L34 117L64 120L94 98L126 106L157 82L188 92L220 61L251 74L283 44L315 58L348 31L379 48L410 24L430 32V150H0Z" fill="url(#ride-fill)"/>
+              <path d="M0 126L34 117L64 120L94 98L126 106L157 82L188 92L220 61L251 74L283 44L315 58L348 31L379 48L410 24L430 32" stroke="url(#ride-stroke)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="283" cy="44" r="6" fill="#fffdf7"/>
+              <circle cx="283" cy="44" r="13" stroke="#fffdf7" stroke-opacity=".28"/>
+            </svg>
+            <div class="device-foot">
+              <span>Alpe d'Huez</span>
+              <span>8,1 km</span>
+              <span>7,9 %</span>
+            </div>
+          </article>
+
+          <article class="device device--play">
+            <div class="device-bar">
+              <span class="device-dot device-dot--coral"></span>
+              <span>Kalimbapp</span>
+              <span class="device-state device-state--amber">PLAY</span>
+            </div>
+            <div class="play-stage">
+              <div class="play-lanes">
+                <span class="note note--1"></span>
+                <span class="note note--2"></span>
+                <span class="note note--3"></span>
+                <span class="note note--4"></span>
+                <span class="note note--5"></span>
+              </div>
+              <div class="hit-line"></div>
+              <div class="tines">
+                <i style="--h:38%"></i><i style="--h:58%"></i><i style="--h:80%"></i><i style="--h:55%"></i><i style="--h:36%"></i><i style="--h:68%"></i><i style="--h:48%"></i>
+              </div>
+            </div>
+            <div class="device-foot">
+              <span>Ode to Joy</span>
+              <span>92 BPM</span>
+              <span>17 teclas</span>
+            </div>
+          </article>
+
+          <span class="stage-caption">RIDE <b>→</b> PLAY</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Gratis</span><span>Sin anuncios</span><span>Sin registro</span><span>Tus datos en tu navegador</span><span>Hecho para disfrutar</span>
+        <span>Gratis</span><span>Sin anuncios</span><span>Sin registro</span><span>Tus datos en tu navegador</span><span>Hecho para disfrutar</span>
+      </div>
+    </div>
+
+    <section class="manifesto" aria-labelledby="manifesto-title">
+      <span class="manifesto-zero" aria-hidden="true">0</span>
+      <div class="wrap">
+        <p class="kicker kicker--light">Por qué existen</p>
+        <h2 id="manifesto-title">Software útil.<br>Sin peaje.</h2>
+        <p class="manifesto-lead">VeloScript y Kalimbapp nacen de una idea sencilla: las herramientas para entrenar o aprender música no deberían interrumpirte con anuncios, suscripciones ni cuentas. Abres, usas, cierras. Tu progreso se queda en tu navegador.</p>
+        <div class="pillars">
+          <article>
+            <span class="pillar-num">01</span>
+            <h3>Gratis de verdad</h3>
+            <p>No hay versión premium ni prueba de siete días. Todo lo que ves está disponible sin pagar.</p>
+          </article>
+          <article>
+            <span class="pillar-num">02</span>
+            <h3>Cero publicidad</h3>
+            <p>Nada de banners, vídeos previos ni pausas forzadas. La interfaz es toda para lo que estás haciendo.</p>
+          </article>
+          <article>
+            <span class="pillar-num">03</span>
+            <h3>Sin cuentas ni nube</h3>
+            <p>No necesitas registrarte. Rutas, ajustes y favoritos se guardan localmente en tu dispositivo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="proyectos" aria-labelledby="projects-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="kicker">Los proyectos</p>
+          <h2 id="projects-title">Dos herramientas.<br><em>Una misma filosofía.</em></h2>
+          <p>Una para cuando quieres sudar. Otra para cuando quieres tocar. Ambas funcionan directamente en el navegador y se pueden instalar como una app.</p>
+        </header>
+
+        <div class="quick-answer">
+          <span class="quick-answer-label">En 20 segundos</span>
+          <p><strong>VeloScript</strong> es un entrenador de ciclismo virtual gratis para navegador. <strong>Kalimbapp</strong> es una app web gratis para aprender kalimba con notas tipo Guitar Hero. Ninguna tiene anuncios, suscripciones ni registro.</p>
+        </div>
+
+        <article class="project project--ride" id="veloscript">
+          <div class="project-copy">
+            <div class="project-meta">
+              <span class="project-num">01 / RIDE</span>
+              <span class="free-badge">Gratis · Sin anuncios</span>
+            </div>
+            <div class="project-title">
+              <img class="project-icon" src="assets/veloscript-mark.png" alt="Logotipo de VeloScript" width="56" height="56" loading="lazy">
+              <h2>VeloScript</h2>
+            </div>
+            <p class="project-tagline">Tu rodillo. Tus rutas. Tu ritmo.</p>
+            <p class="project-answer">VeloScript es un entrenador de ciclismo virtual gratuito que funciona en el navegador. Convierte tus rutas GPX, KML o KMZ en recorridos 3D y sincroniza tu rodillo Bluetooth con la física de la ruta.</p>
+            <ul class="feature-list">
+              <li><span>01</span>Rutas 3D con Three.js o MapLibre</li>
+              <li><span>02</span>Importa GPX, KML y KMZ</li>
+              <li><span>03</span>Rodillo y cadencia por Bluetooth</li>
+              <li><span>04</span>Entrenamientos por potencia y zonas FTP</li>
+              <li><span>05</span>Física con peso, viento, pendiente, CdA y Crr</li>
+              <li><span>06</span>Cambios virtuales, ERG y resistencia</li>
+              <li><span>07</span>Perfil de ruta y estadísticas de sesión</li>
+              <li><span>08</span>Modo simulación e instalación como PWA</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn--light" href="/veloscript/">Entrar en VeloScript <span aria-hidden="true">→</span></a>
+              <span class="action-note">Sin cuenta · Sin instalar</span>
+            </div>
+          </div>
+
+          <div class="project-art project-art--ride" aria-hidden="true">
+            <div class="art-window">
+              <div class="art-window-bar"><i></i><i></i><i></i><span>live-ride.veloscript</span></div>
+              <div class="art-ride">
+                <div class="art-ride-top">
+                  <span class="micro-label">Etapa 12</span>
+                  <strong>Alpe d'Huez</strong>
+                  <span class="art-weather">18 °C · viento 9 km/h</span>
+                </div>
+                <div class="art-ride-stats">
+                  <div><span>Velocidad</span><b>32,4</b><small>km/h</small></div>
+                  <div><span>Potencia</span><b>248</b><small>W</small></div>
+                  <div><span>Pendiente</span><b>6,8</b><small>%</small></div>
+                </div>
+                <svg viewBox="0 0 560 220" fill="none">
+                  <path d="M0 190H560M0 142H560M0 94H560M0 46H560" stroke="#9bb8ff" stroke-opacity=".12"/>
+                  <path d="M0 198L42 184L84 190L126 156L168 168L210 128L252 143L294 96L336 116L378 72L420 91L462 50L504 74L546 36L560 42V220H0Z" fill="url(#project-fill)"/>
+                  <path d="M0 198L42 184L84 190L126 156L168 168L210 128L252 143L294 96L336 116L378 72L420 91L462 50L504 74L546 36L560 42" stroke="url(#project-stroke)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <defs>
+                    <linearGradient id="project-fill" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#6fe7ff" stop-opacity=".34"/><stop offset="1" stop-color="#6fe7ff" stop-opacity="0"/></linearGradient>
+                    <linearGradient id="project-stroke" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6fe7ff"/><stop offset=".5" stop-color="#9c9cff"/><stop offset="1" stop-color="#ff9c7f"/></linearGradient>
+                  </defs>
+                  <circle cx="336" cy="116" r="7" fill="#fffdf7"/>
+                  <circle cx="336" cy="116" r="16" stroke="#fffdf7" stroke-opacity=".25"/>
+                </svg>
+                <div class="art-ride-foot"><span>KM 4,2 / 8,1</span><span>DESNIVEL +612 m</span><span>Z4 · UMBRAL</span></div>
+              </div>
+            </div>
+            <div class="art-chip art-chip--power"><span>POTENCIA</span><strong>248 W</strong></div>
+            <div class="art-chip art-chip--gear"><span>MARCHA</span><strong>12 / 24</strong></div>
+          </div>
+        </article>
+
+        <article class="project project--play" id="kalimbapp">
+          <div class="project-copy">
+            <div class="project-meta">
+              <span class="project-num">02 / PLAY</span>
+              <span class="free-badge free-badge--play">Gratis · Sin anuncios</span>
+            </div>
+            <div class="project-title">
+              <img class="project-icon" src="assets/kalimbapp-mark.png" alt="Icono de Kalimbapp" width="56" height="56" loading="lazy">
+              <h2>Kalimbapp</h2>
+            </div>
+            <p class="project-tagline">Aprende kalimba como si fuera un juego.</p>
+            <p class="project-answer">Kalimbapp es una guía visual gratuita para tocar la kalimba. Las notas caen por el carril de cada tecla, como en un juego de ritmo, mientras la app sintetiza el sonido y te marca el tempo.</p>
+            <ul class="feature-list">
+              <li><span>01</span>Notas que caen por carriles</li>
+              <li><span>02</span>Kalimbas de 8, 17 y 21 teclas</li>
+              <li><span>03</span>Tabs numéricos de texto</li>
+              <li><span>04</span>Importa MIDI y MusicXML</li>
+              <li><span>05</span>Biblioteca con búsqueda, grupos y favoritos</li>
+              <li><span>06</span>Modo libre y metrónomo</li>
+              <li><span>07</span>Sonido sintetizado con WebAudio</li>
+              <li><span>08</span>Funciona offline e instalable como PWA</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn--light" href="/kalimbaka/">Abrir Kalimbapp <span aria-hidden="true">→</span></a>
+              <span class="action-note">Sin cuenta · También offline</span>
+            </div>
+          </div>
+
+          <div class="project-art project-art--play" aria-hidden="true">
+            <div class="art-window">
+              <div class="art-window-bar"><i></i><i></i><i></i><span>kalimbapp / biblioteca</span></div>
+              <div class="art-play">
+                <div class="art-play-head">
+                  <div><span class="micro-label">Ahora suena</span><strong>Ode to Joy</strong></div>
+                  <span class="art-pill">17 teclas</span>
+                </div>
+                <div class="art-lanes">
+                  <div class="art-lane"><span class="art-note" style="--x:18%;--d:0s"></span><span class="art-note" style="--x:52%;--d:-1.4s"></span></div>
+                  <div class="art-lane"><span class="art-note" style="--x:36%;--d:-.7s"></span><span class="art-note" style="--x:72%;--d:-2.2s"></span></div>
+                  <div class="art-lane"><span class="art-note" style="--x:25%;--d:-1.9s"></span><span class="art-note" style="--x:62%;--d:-.3s"></span></div>
+                  <div class="art-lane"><span class="art-note" style="--x:44%;--d:-2.6s"></span><span class="art-note" style="--x:80%;--d:-1.1s"></span></div>
+                  <div class="art-lane"><span class="art-note" style="--x:30%;--d:-1.6s"></span><span class="art-note" style="--x:66%;--d:-.5s"></span></div>
+                </div>
+                <div class="art-hit"></div>
+                <div class="art-tines"><i style="--h:34%"></i><i style="--h:54%"></i><i style="--h:72%"></i><i style="--h:92%"></i><i style="--h:78%"></i><i style="--h:58%"></i><i style="--h:40%"></i></div>
+                <div class="art-play-foot"><span>92 BPM</span><span>4/4</span><span>Melodía</span></div>
+              </div>
+            </div>
+            <div class="art-chip art-chip--tempo"><span>TEMPO</span><strong>92 BPM</strong></div>
+            <div class="art-chip art-chip--keys"><span>KALIMBA</span><strong>17 KEYS</strong></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="compare" id="comparativa" aria-labelledby="compare-title">
+      <div class="wrap">
+        <header class="section-head section-head--split">
+          <div>
+            <p class="kicker">Comparativa rápida</p>
+            <h2 id="compare-title">VeloScript y Kalimbapp,<br><em>de un vistazo.</em></h2>
+          </div>
+          <p>Dos apps distintas, las mismas reglas: precio cero, publicidad cero y sin pedirte una cuenta. Esta tabla resume lo esencial para elegir por dónde empezar.</p>
+        </header>
+
+        <div class="table-wrap">
+          <table>
+            <caption>Comparativa de VeloScript y Kalimbapp</caption>
+            <thead>
+              <tr>
+                <th scope="col">Aspecto</th>
+                <th scope="col"><span class="th-dot th-dot--ride"></span>VeloScript</th>
+                <th scope="col"><span class="th-dot th-dot--play"></span>Kalimbapp</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Para qué sirve</th><td>Ciclismo virtual con rodillo</td><td>Aprender y tocar kalimba</td></tr>
+              <tr><th scope="row">Plataforma</th><td>Navegador web y PWA</td><td>Navegador web y PWA</td></tr>
+              <tr><th scope="row">Precio</th><td><span class="yes">Gratis</span></td><td><span class="yes">Gratis</span></td></tr>
+              <tr><th scope="row">Anuncios</th><td>Ninguno</td><td>Ninguno</td></tr>
+              <tr><th scope="row">Registro</th><td>No</td><td>No</td></tr>
+              <tr><th scope="row">Instalable</th><td>Sí, como PWA</td><td>Sí, como PWA</td></tr>
+              <tr><th scope="row">Sin conexión</th><td>No; necesita mapas y rutas</td><td>Sí; app y demos cacheadas</td></tr>
+              <tr><th scope="row">Importa</th><td>GPX, KML y KMZ</td><td>TXT, MIDI y MusicXML</td></tr>
+              <tr><th scope="row">Bluetooth</th><td>Sí, rodillo y cadencia</td><td>No</td></tr>
+              <tr><th scope="row">Datos</th><td>En tu navegador</td><td>En tu navegador</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="start" aria-labelledby="start-title">
+      <div class="wrap">
+        <header class="section-head section-head--center">
+          <p class="kicker">Sin fricción</p>
+          <h2 id="start-title">De cero a tu primera sesión<br><em>en tres pasos.</em></h2>
+        </header>
+        <div class="steps">
+          <article>
+            <span class="step-num">01</span>
+            <h3>Elige tu app</h3>
+            <p>¿Rodillo o kalimba? Empieza por la que te apetezca. No hay orden correcto.</p>
+          </article>
+          <article>
+            <span class="step-num">02</span>
+            <h3>Ábrela en el navegador</h3>
+            <p>No hace falta instalar nada. Si quieres acceso directo, añádela a tu pantalla de inicio.</p>
+          </article>
+          <article>
+            <span class="step-num">03</span>
+            <h3>Practica sin interrupciones</h3>
+            <p>Tus ajustes y tu progreso se quedan en tu dispositivo. Vuelve cuando quieras.</p>
+          </article>
+        </div>
+        <div class="install-note">
+          <span class="install-note-tag">PWA</span>
+          <p>Las dos apps se pueden instalar desde el navegador. Kalimbapp además funciona sin conexión después de instalarse.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div class="wrap faq-grid">
+        <header class="faq-head">
+          <p class="kicker">Dudas razonables</p>
+          <h2 id="faq-title">Preguntas<br><em>frecuentes.</em></h2>
+          <p>Lo que suele preguntar la gente antes de probar VeloScript o Kalimbapp. Si falta algo, la respuesta está a un clic dentro de cada app.</p>
+          <p class="updated">Actualizado: <time datetime="2026-11-06">noviembre de 2026</time></p>
+        </header>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>¿VeloScript y Kalimbapp son realmente gratis?</summary>
+            <p>Sí. Las dos aplicaciones se pueden usar completas sin pagar, sin suscripción y sin anuncios. No hay una versión premium oculta ni compras dentro de la app.</p>
+          </details>
+          <details class="faq-item">
+            <summary>¿Necesito crear una cuenta?</summary>
+            <p>No. No hay registro ni inicio de sesión. La configuración, las rutas importadas y los favoritos se guardan en el almacenamiento local del navegador.</p>
+          </details>
+          <details class="faq-item">
+            <summary>¿Se pueden instalar como aplicación?</summary>
+            <p>Sí. Ambas incluyen un manifest PWA y se pueden añadir a la pantalla de inicio desde un navegador compatible. En Android y escritorio aparece la opción de instalar; en iPhone o iPad se usa Compartir y Añadir a pantalla de inicio.</p>
+          </details>
+          <details class="faq-item">
+            <summary>¿Funcionan sin conexión?</summary>
+            <p>Kalimbapp funciona offline después de instalarse: su service worker cachea la aplicación y las canciones de demostración. VeloScript necesita conexión para cargar mapas, teselas y rutas, aunque se puede instalar como acceso directo.</p>
+          </details>
+          <details class="faq-item">
+            <summary>¿Qué rodillo necesito para VeloScript?</summary>
+            <p>VeloScript utiliza Web Bluetooth para conectar rodillos y sensores compatibles. También incluye un modo de simulación para probar la interfaz y la física sin dispositivo.</p>
+          </details>
+          <details class="faq-item">
+            <summary>¿Qué kalimbas soporta Kalimbapp?</summary>
+            <p>Kalimbapp está pensada para kalimbas diatónicas en Do mayor de 8, 17 y 21 teclas. Los tabs de 17 teclas también funcionan en una kalimba de 21.</p>
+          </details>
+          <details class="faq-item">
+            <summary>¿Puedo importar mis propias rutas o canciones?</summary>
+            <p>Sí. VeloScript acepta archivos GPX, KML y KMZ. Kalimbapp acepta tabs de texto, archivos MIDI y partituras MusicXML, además de bibliotecas JSON.</p>
+          </details>
+          <details class="faq-item">
+            <summary>¿Dónde se guardan mis datos?</summary>
+            <p>En tu navegador. Ninguna de las dos aplicaciones necesita un backend para funcionar y no se crea una cuenta en la nube.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+      <div class="closing-orbit closing-orbit--ride" aria-hidden="true"></div>
+      <div class="closing-orbit closing-orbit--play" aria-hidden="true"></div>
+      <div class="wrap closing-inner">
+        <p class="kicker kicker--light">Tu siguiente sesión empieza aquí</p>
+        <h2 id="closing-title">Menos ruido.<br><em>Más flow.</em></h2>
+        <p>Elige VeloScript o Kalimbapp. Ninguna te pedirá una cuenta, te enseñará un anuncio ni te cobrará por seguir practicando.</p>
+        <div class="closing-actions">
+          <a class="btn btn--light" href="/veloscript/">Entrar en VeloScript <span aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost" href="/kalimbaka/">Abrir Kalimbapp <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand--footer" href="#top" aria-label="Volver arriba">
+          <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+            <rect width="64" height="64" rx="16" fill="#f3efe4"/>
+            <path d="M13 38c5-13 9-2 14-8s7-1 12-7 6-3 12-8" fill="none" stroke="#121512" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M13 47h38M13 53h38" fill="none" stroke="#ff6846" stroke-width="2.4" stroke-linecap="round" opacity=".9"/>
+            <circle cx="39" cy="39" r="3.2" fill="#2f62ff"/>
+          </svg>
+          <span class="brand-copy">
+            <span class="brand-name">totosw</span>
+            <span class="brand-sub">apps para fluir</span>
+          </span>
+        </a>
+        <p>Apps independientes, gratuitas y sin publicidad para pedalear y tocar mejor.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Enlaces del pie">
+        <div>
+          <span class="footer-title">Proyectos</span>
+          <a href="/veloscript/">VeloScript</a>
+          <a href="/kalimbaka/">Kalimbapp</a>
+        </div>
+        <div>
+          <span class="footer-title">Esta página</span>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#comparativa">Comparativa</a>
+          <a href="#faq">Preguntas</a>
+        </div>
+      </nav>
+      <div class="footer-note">
+        <span class="footer-title">Sin letra pequeña</span>
+        <p>Sin anuncios. Sin cuentas. Sin cookies de publicidad.</p>
+        <p>© 2026 totosw</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="landing.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+# totosw
+
+> Proyectos web independientes, gratuitos y sin publicidad para ciclismo virtual y aprendizaje musical.
+
+## VeloScript
+
+VeloScript es un entrenador de ciclismo virtual gratuito que funciona en el navegador. Convierte rutas GPX, KML y KMZ en recorridos 3D con Three.js o MapLibre, conecta rodillos y sensores de cadencia mediante Web Bluetooth y aplica física de ciclismo con peso, viento, pendiente, CdA y Crr. Incluye entrenamientos estructurados por potencia, zonas FTP, cambios virtuales, modos ERG y resistencia, perfil de ruta y estadísticas de sesión. No tiene anuncios, suscripciones ni registro. Se puede instalar como PWA, pero necesita conexión para mapas y rutas.
+
+URL: https://totosw.github.io/veloscript/
+
+## Kalimbapp
+
+Kalimbapp es una guía visual gratuita para tocar la kalimba. Las notas caen por el carril de cada tecla, como en un juego de ritmo, mientras la app sintetiza el sonido con WebAudio y marca el tempo con un metrónomo. Soporta kalimbas diatónicas de 8, 17 y 21 teclas en Do mayor, tabs numéricos de texto, importación de MIDI y MusicXML, biblioteca con búsqueda, grupos y favoritos, modo libre y calibración de pantalla. No tiene anuncios, suscripciones ni registro. Funciona offline tras instalarse como PWA.
+
+URL: https://totosw.github.io/kalimbaka/
+
+## Datos comunes
+
+- Precio: 0 EUR. Acceso completo sin versión premium.
+- Anuncios: ninguno.
+- Registro: no necesario.
+- Datos: se guardan localmente en el navegador.
+- Plataforma: web moderna; instalables como PWA.
