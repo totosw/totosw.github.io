@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Alpe d'Huez",
+    "url": "./assets/tracks/alpe-dhuez.gpx",
+    "tileSourceId": "ign-france-ortho"
+  },
+  {
+    "name": "Terrassa - Montserrat (camino)",
+    "url": "./assets/tracks/terrassa-montserrat-subida-por-camino.gpx",
+    "tileSourceId": "icgc-catalunya"
+  },
+  {
+    "name": "Planoles - Puigmal 2013",
+    "url": "./assets/tracks/planoles-puigmal-2013.gpx",
+    "tileSourceId": "icgc-catalunya"
+  },
+  {
+    "name": "Tirol: Ehrwald to Leutasch",
+    "url": "./assets/tracks/tirol-4-ehrwald-to-leutasch.gpx",
+    "tileSourceId": "basemap-at-orthofoto"
+  },
+  {
+    "name": "Tirol: Scharnitz to Mittenwald & Maurach",
+    "url": "./assets/tracks/tirol6-scharnitz-to-mittenwald-and-maurach.gpx",
+    "tileSourceId": "basemap-at-orthofoto"
+  },
+  {
+    "name": "Tirol: Leutasch to Scharnitz & Kastenalm",
+    "url": "./assets/tracks/tirol5-leutasch-to-scharnitz-and-kastenalm.gpx",
+    "tileSourceId": "basemap-at-orthofoto"
+  },
+  {
+    "name": "Suiza: Grindelwald - Grosse Scheidegg - First",
+    "url": "./assets/tracks/etapa-5-grindelwald-grosse-scheidegg-first-grindelwald.gpx",
+    "tileSourceId": "swisstopo"
+  },
+  {
+    "name": "Suiza: Grindelwald - Lauterbrunnen",
+    "url": "./assets/tracks/etapa-6-grindelwald-lauterbrunnen.gpx",
+    "tileSourceId": "swisstopo"
+  },
+  {
+    "name": "Le Villard - Ceillac",
+    "url": "./assets/tracks/le-villard-ceillac.gpx",
+    "tileSourceId": "ign-france-ortho"
+  }
+]
