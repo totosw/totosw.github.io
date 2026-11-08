@@ -455,6 +455,20 @@
       "artist": "Michael Land",
       "group": "Monkey Island",
       "midi": "monkey_island/monkey_island_melee_island.mid"
+    },
+    {
+      "id": "taylor-swift-exile",
+      "title": "Taylor Swift ft. Bon Iver - Exile",
+      "artist": "Taylor Swift",
+      "group": "Taylor Swift",
+      "midi": "taylor_swift/taylor_swift_exile.mid"
+    },
+    {
+      "id": "john-legend-all-of-me",
+      "title": "John Legend - All of Me",
+      "artist": "John Legend",
+      "group": "John Legend",
+      "midi": "john_legend/john_legend_all_of_me.mid"
     }
   ]
 }
