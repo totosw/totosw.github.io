@@ -469,6 +469,34 @@
       "artist": "John Legend",
       "group": "John Legend",
       "midi": "john_legend/john_legend_all_of_me.mid"
+    },
+    {
+      "id": "amelie-comptine-dun-autre-ete",
+      "title": "Amélie - Comptine d'un autre été, l'après-midi",
+      "artist": "Yann Tiersen",
+      "group": "Amélie",
+      "midi": "amelie/comptine_d_un_autre_ete_l_apres_midi_yann_tiersen.mid"
+    },
+    {
+      "id": "amelie-la-valse-damelie",
+      "title": "Amélie - La Valse d'Amélie",
+      "artist": "Yann Tiersen",
+      "group": "Amélie",
+      "midi": "amelie/la_valse_d_amelie_yann_tiersen.mid"
+    },
+    {
+      "id": "interstellar-main-theme",
+      "title": "Interstellar - Main Theme",
+      "artist": "Hans Zimmer",
+      "group": "Interstellar",
+      "midi": "interstellar/interstellar_hans_zimmer.mid"
+    },
+    {
+      "id": "pirates-of-the-caribbean-main-theme",
+      "title": "Pirates of the Caribbean - Main Theme",
+      "artist": "Hans Zimmer",
+      "group": "Pirates of the Caribbean",
+      "midi": "pirates_of_the_caribbean/pirates_of_the_caribbean_hans_zimmer.mid"
     }
   ]
 }
