@@ -497,6 +497,13 @@
       "artist": "Hans Zimmer",
       "group": "Pirates of the Caribbean",
       "midi": "pirates_of_the_caribbean/pirates_of_the_caribbean_hans_zimmer.mid"
+    },
+    {
+      "id": "moonlight-sonata-1st-movement",
+      "title": "Sonata No. 14 'Moonlight' - 1st Movement",
+      "artist": "Ludwig van Beethoven",
+      "group": "Clásica",
+      "midi": "clasica/sonate_no_14_moonlight_1st_movement_beethoven.mid"
     }
   ]
 }
