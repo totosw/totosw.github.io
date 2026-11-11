@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="expires" content="0" />
+    <title>Rescate de Kalimbapp</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family:
+          'Inter',
+          'Segoe UI',
+          system-ui,
+          -apple-system,
+          sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        background: #05070f;
+        color: #e8eefc;
+      }
+
+      main {
+        width: min(560px, 100%);
+        padding: 32px;
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        border-radius: 16px;
+        background: #0c1424;
+      }
+
+      h1 {
+        margin: 0 0 16px;
+        font-size: 1.5rem;
+      }
+
+      p {
+        margin: 0 0 20px;
+        color: #8b9bb8;
+        line-height: 1.5;
+      }
+
+      button,
+      a {
+        display: inline-block;
+        padding: 12px 18px;
+        border: 0;
+        border-radius: 10px;
+        background: #22d3ee;
+        color: #05070f;
+        font: inherit;
+        font-weight: 700;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      button[hidden] {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Rescate de Kalimbapp</h1>
+      <p id="status" role="status" aria-live="polite">
+        Limpiando el service worker y las cachés antiguas. No se borran tus canciones ni ajustes.
+        Después volverás a la app.
+      </p>
+      <button id="retry" type="button" hidden>Volver a Kalimbapp</button>
+    </main>
+    <script>
+      (() => {
+        const status = document.getElementById('status');
+        const retry = document.getElementById('retry');
+        const target = `/kalimbaka/?rescued=${Date.now()}`;
+        const go = () => window.location.replace(target);
+
+        retry.addEventListener('click', go);
+
+        (async () => {
+          try {
+            let unregistered = 0;
+            if ('serviceWorker' in navigator) {
+              const registrations = await navigator.serviceWorker.getRegistrations();
+              for (const registration of registrations) {
+                const scope = new URL(registration.scope).pathname;
+                const scriptUrl =
+                  registration.active?.scriptURL ??
+                  registration.waiting?.scriptURL ??
+                  registration.installing?.scriptURL ??
+                  '';
+                const scriptPath = scriptUrl ? new URL(scriptUrl).pathname : '';
+                const isKalimbapp =
+                  scope === '/kalimbaka/' ||
+                  scope === '/kalimbaka' ||
+                  (scope === '/' && scriptPath.endsWith('/ngsw-worker.js'));
+                if (isKalimbapp && (await registration.unregister())) {
+                  unregistered += 1;
+                }
+              }
+            }
+
+            let removed = 0;
+            if ('caches' in window) {
+              const keys = await caches.keys();
+              for (const key of keys) {
+                if (key.startsWith('ngsw:')) {
+                  if (await caches.delete(key)) {
+                    removed += 1;
+                  }
+                }
+              }
+            }
+
+            status.textContent = `Rescate completado (${unregistered} service worker, ${removed} cachés). Volviendo a Kalimbapp...`;
+            retry.hidden = false;
+            window.setTimeout(go, 1200);
+          } catch (error) {
+            status.textContent =
+              'No se pudo completar el rescate automático. Vuelve a la app o borra los datos del sitio.';
+            retry.hidden = false;
+            console.error(error);
+          }
+        })();
+      })();
+    </script>
+  </body>
+</html>
