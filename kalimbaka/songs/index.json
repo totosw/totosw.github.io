@@ -504,6 +504,90 @@
       "artist": "Ludwig van Beethoven",
       "group": "Clásica",
       "midi": "clasica/sonate_no_14_moonlight_1st_movement_beethoven.mid"
+    },
+    {
+      "id": "hollow-knight-silksong-bilewater",
+      "title": "Hollow Knight: Silksong - Bilewater",
+      "artist": "Christopher Larkin",
+      "group": "Hollow Knight",
+      "midi": "hollow_knight/hollow_knight_silksong_bilewater.mid"
+    },
+    {
+      "id": "adele-hello",
+      "title": "Adele - Hello",
+      "artist": "Adele",
+      "group": "Adele",
+      "midi": "adele/adele_hello.mid"
+    },
+    {
+      "id": "alphaville-forever-young",
+      "title": "Alphaville - Forever Young",
+      "artist": "Alphaville",
+      "group": "Alphaville",
+      "midi": "alphaville/alphaville_forever_young.mid"
+    },
+    {
+      "id": "alan-walker-faded",
+      "title": "Alan Walker - Faded",
+      "artist": "Alan Walker",
+      "group": "Alan Walker",
+      "midi": "alan_walker/alan_walker_faded.mid"
+    },
+    {
+      "id": "gary-jules-mad-world",
+      "title": "Gary Jules - Mad World",
+      "artist": "Gary Jules",
+      "group": "Gary Jules",
+      "midi": "gary_jules/gary_jules_mad_world.mid"
+    },
+    {
+      "id": "john-williams-schindlers-list-theme",
+      "title": "John Williams - Schindler's List Theme",
+      "artist": "John Williams",
+      "group": "John Williams",
+      "midi": "john_williams/john_williams_schindlers_list_theme.mid"
+    },
+    {
+      "id": "renaud-mistral-gagnant",
+      "title": "Renaud - Mistral gagnant",
+      "artist": "Renaud",
+      "group": "Renaud",
+      "midi": "renaud/renaud_mistral_gagnant.mid"
+    },
+    {
+      "id": "a-star-is-born-shallow",
+      "title": "A Star Is Born - Shallow",
+      "artist": "Lady Gaga & Bradley Cooper",
+      "group": "A Star Is Born",
+      "midi": "a_star_is_born/a_star_is_born_shallow.mid"
+    },
+    {
+      "id": "simon-and-garfunkel-the-sound-of-silence-v2",
+      "title": "Simon & Garfunkel - The Sound of Silence (versión 2)",
+      "artist": "Simon & Garfunkel",
+      "group": "Simon & Garfunkel",
+      "midi": "simon_and_garfunkel/simon_and_garfunkel_the_sound_of_silence_v2.mid"
+    },
+    {
+      "id": "yiruma-river-flows-in-you",
+      "title": "Yiruma - River Flows in You",
+      "artist": "Yiruma",
+      "group": "Yiruma",
+      "midi": "yiruma/yiruma_river_flows_in_you.mid"
+    },
+    {
+      "id": "the-weeknd-blinding-lights",
+      "title": "The Weeknd - Blinding Lights",
+      "artist": "The Weeknd",
+      "group": "The Weeknd",
+      "midi": "the_weeknd/the_weeknd_blinding_lights.mid"
+    },
+    {
+      "id": "ludovico-einaudi-nuvole-bianche",
+      "title": "Ludovico Einaudi - Nuvole Bianche",
+      "artist": "Ludovico Einaudi",
+      "group": "Ludovico Einaudi",
+      "midi": "ludovico_einaudi/ludovico_einaudi_nuvole_bianche.mid"
     }
   ]
 }
