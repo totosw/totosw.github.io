@@ -588,6 +588,34 @@
       "artist": "Ludovico Einaudi",
       "group": "Ludovico Einaudi",
       "midi": "ludovico_einaudi/ludovico_einaudi_nuvole_bianche.mid"
+    },
+    {
+      "id": "agnes-obel-familiar",
+      "title": "Agnes Obel - Familiar",
+      "artist": "Agnes Obel",
+      "group": "Agnes Obel",
+      "midi": "agnes_obel/agnes_obel_familiar.mid"
+    },
+    {
+      "id": "agnes-obel-riverside",
+      "title": "Agnes Obel - Riverside",
+      "artist": "Agnes Obel",
+      "group": "Agnes Obel",
+      "midi": "agnes_obel/agnes_obel_riverside.mid"
+    },
+    {
+      "id": "ed-sheeran-i-see-fire",
+      "title": "Ed Sheeran - I See Fire",
+      "artist": "Ed Sheeran",
+      "group": "Ed Sheeran",
+      "midi": "ed_sheeran/ed_sheeran_i_see_fire.mid"
+    },
+    {
+      "id": "aurora-runaway",
+      "title": "AURORA - Runaway",
+      "artist": "AURORA",
+      "group": "Aurora",
+      "midi": "aurora/aurora_runaway.mid"
     }
   ]
 }
