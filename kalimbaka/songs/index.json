@@ -3,7 +3,7 @@
     {
       "id": "monkey-island-midi",
       "title": "Monkey Island Theme",
-      "artist": "Xitete el Grande",
+      "artist": "Michael Land",
       "group": "Monkey Island",
       "midi": "monkey_island/monkey_island_theme.mid"
     },
@@ -33,91 +33,91 @@
     {
       "id": "hollow-knight-city-of-tears",
       "title": "Hollow Knight - City of Tears",
-      "artist": "Xitetin",
+      "artist": "Christopher Larkin",
       "group": "Hollow Knight",
       "midi": "hollow_knight/hollow_knight_city_of_tears.mid"
     },
     {
       "id": "hollow-knight-dirtmouth",
       "title": "Hollow Knight - Dirtmouth",
-      "artist": "Xitetin",
+      "artist": "Christopher Larkin",
       "group": "Hollow Knight",
       "midi": "hollow_knight/hollow_knight_dirtmouth.mid"
     },
     {
       "id": "hollow-knight-enter-hallownest",
       "title": "Hollow Knight - Enter Hallownest",
-      "artist": "Xitetin",
+      "artist": "Christopher Larkin",
       "group": "Hollow Knight",
       "midi": "hollow_knight/hollow_knight_enter_hallownest.mid"
     },
     {
       "id": "hollow-knight-greenpath",
       "title": "Hollow Knight - Greenpath",
-      "artist": "Xitetin",
+      "artist": "Christopher Larkin",
       "group": "Hollow Knight",
       "midi": "hollow_knight/hollow_knight_greenpath.mid"
     },
     {
       "id": "hollow-knight-main-theme",
       "title": "Hollow Knight - Main Theme",
-      "artist": "Xitetin",
+      "artist": "Christopher Larkin",
       "group": "Hollow Knight",
       "midi": "hollow_knight/hollow_knight_main_theme.mid"
     },
     {
       "id": "hollow-knight-mantis-lords",
       "title": "Hollow Knight - Mantis Lords",
-      "artist": "Xitetin",
+      "artist": "Christopher Larkin",
       "group": "Hollow Knight",
       "midi": "hollow_knight/hollow_knight_mantis_lords.mid"
     },
     {
       "id": "hollow-knight-nosk",
       "title": "Hollow Knight - Nosk",
-      "artist": "Xitetin",
+      "artist": "Christopher Larkin",
       "group": "Hollow Knight",
       "midi": "hollow_knight/hollow_knight_nosk.mid"
     },
     {
       "id": "hollow-knight-queens-garden",
       "title": "Hollow Knight - Queen's Garden",
-      "artist": "Xitetin",
+      "artist": "Christopher Larkin",
       "group": "Hollow Knight",
       "midi": "hollow_knight/hollow_knight_queens_garden.mid"
     },
     {
       "id": "hollow-knight-reflection",
       "title": "Hollow Knight - Reflection",
-      "artist": "Xitetin",
+      "artist": "Christopher Larkin",
       "group": "Hollow Knight",
       "midi": "hollow_knight/hollow_knight_reflection.mid"
     },
     {
       "id": "hollow-knight-resting-grounds",
       "title": "Hollow Knight - Resting Grounds",
-      "artist": "Xitetin",
+      "artist": "Christopher Larkin",
       "group": "Hollow Knight",
       "midi": "hollow_knight/hollow_knight_resting_grounds.mid"
     },
     {
       "id": "hollow-knight-soul-sanctum",
       "title": "Hollow Knight - Soul Sanctum",
-      "artist": "Xitetin",
+      "artist": "Christopher Larkin",
       "group": "Hollow Knight",
       "midi": "hollow_knight/hollow_knight_soul_sanctum.mid"
     },
     {
       "id": "hollow-knight-the-white-lady",
       "title": "Hollow Knight - The White Lady",
-      "artist": "Xitetin",
+      "artist": "Christopher Larkin",
       "group": "Hollow Knight",
       "midi": "hollow_knight/hollow_knight_the_white_lady.mid"
     },
     {
       "id": "hollow-knight-white-palace",
       "title": "Hollow Knight - White Palace",
-      "artist": "Xitetin",
+      "artist": "Christopher Larkin",
       "group": "Hollow Knight",
       "midi": "hollow_knight/hollow_knight_white_palace.mid"
     },
@@ -215,7 +215,7 @@
     {
       "id": "kirby-gourmet-race",
       "title": "Kirby - Gourmet Race",
-      "artist": "Kirby",
+      "artist": "Jun Ishikawa",
       "group": "Kirby",
       "midi": "kirby/kirby_gourmet_race.mid"
     },
@@ -404,14 +404,14 @@
     {
       "id": "kirby-amazing-mirror-cabbage-cavern",
       "title": "Kirby & The Amazing Mirror - Cabbage Cavern",
-      "artist": "Kirby",
+      "artist": "Hironobu Inagaki & Atsuyoshi Isemura",
       "group": "Kirby",
       "midi": "kirby/kirby_the_amazing_mirror_cabbage_cavern.mid"
     },
     {
       "id": "kirby-amazing-mirror-rainbow-route",
       "title": "Kirby & The Amazing Mirror - Rainbow Route",
-      "artist": "Kirby",
+      "artist": "Hironobu Inagaki & Atsuyoshi Isemura",
       "group": "Kirby",
       "midi": "kirby/kirby_the_amazing_mirror_rainbow_route.mid"
     },
@@ -425,6 +425,7 @@
     {
       "id": "slime-rancher-ancient-ruins",
       "title": "Slime Rancher - Ancient Ruins",
+      "artist": "Harry Mack",
       "group": "Slime Rancher",
       "midi": "slime_rancher/slime_rancher_ancient_ruins.mid"
     },
@@ -616,6 +617,55 @@
       "artist": "AURORA",
       "group": "Aurora",
       "midi": "aurora/aurora_runaway.mid"
+    },
+    {
+      "id": "blue-oyster-cult-dont-fear-the-reaper",
+      "title": "Blue Öyster Cult - (Don't Fear) The Reaper",
+      "artist": "Blue Öyster Cult",
+      "group": "Blue Öyster Cult",
+      "midi": "blue_oyster_cult/blue_oyster_cult_dont_fear_the_reaper.mid"
+    },
+    {
+      "id": "john-lennon-imagine",
+      "title": "John Lennon - Imagine",
+      "artist": "John Lennon",
+      "group": "John Lennon",
+      "midi": "john_lennon/john_lennon_imagine.mid"
+    },
+    {
+      "id": "lewis-capaldi-someone-you-loved",
+      "title": "Lewis Capaldi - Someone You Loved",
+      "artist": "Lewis Capaldi",
+      "group": "Lewis Capaldi",
+      "midi": "lewis_capaldi/lewis_capaldi_someone_you_loved.mid"
+    },
+    {
+      "id": "hoobastank-the-reason",
+      "title": "Hoobastank - The Reason",
+      "artist": "Hoobastank",
+      "group": "Hoobastank",
+      "midi": "hoobastank/hoobastank_the_reason.mid"
+    },
+    {
+      "id": "coldplay-trouble",
+      "title": "Coldplay - Trouble",
+      "artist": "Coldplay",
+      "group": "Coldplay",
+      "midi": "coldplay/coldplay_trouble.mid"
+    },
+    {
+      "id": "the-beatles-while-my-guitar-gently-weeps",
+      "title": "The Beatles - While My Guitar Gently Weeps",
+      "artist": "The Beatles",
+      "group": "The Beatles",
+      "midi": "the_beatles/the_beatles_while_my_guitar_gently_weeps.mid"
+    },
+    {
+      "id": "scorpions-wind-of-change",
+      "title": "Scorpions - Wind of Change",
+      "artist": "Scorpions",
+      "group": "Scorpions",
+      "midi": "scorpions/scorpions_wind_of_change.mid"
     }
   ]
 }

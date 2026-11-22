@@ -2284,4 +2284,4 @@ ${msgIdle}`, { headers: this.adapter.newHeaders({ "Content-Type": "text/plain" }
  * found in the LICENSE file at https://angular.dev/license
  */
 
-// kalimbapp-build 1.29.0 1794953900
+// kalimbapp-build 1.30.0 1795375276
