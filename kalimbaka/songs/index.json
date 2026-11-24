@@ -612,11 +612,11 @@
       "midi": "ed_sheeran/ed_sheeran_i_see_fire.mid"
     },
     {
-      "id": "aurora-runaway",
-      "title": "AURORA - Runaway",
+      "id": "aurora-runaway-piano",
+      "title": "AURORA - Runaway (Piano)",
       "artist": "AURORA",
       "group": "Aurora",
-      "midi": "aurora/aurora_runaway.mid"
+      "midi": "aurora/aurora_runaway_piano.mid"
     },
     {
       "id": "blue-oyster-cult-dont-fear-the-reaper",
@@ -666,6 +666,13 @@
       "artist": "Scorpions",
       "group": "Scorpions",
       "midi": "scorpions/scorpions_wind_of_change.mid"
+    },
+    {
+      "id": "oasis-wonderwall",
+      "title": "Oasis - Wonderwall",
+      "artist": "Oasis",
+      "group": "Oasis",
+      "midi": "oasis/wonderwall_oasis.mid"
     }
   ]
 }
