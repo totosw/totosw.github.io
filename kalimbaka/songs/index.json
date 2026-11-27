@@ -673,6 +673,13 @@
       "artist": "Oasis",
       "group": "Oasis",
       "midi": "oasis/wonderwall_oasis.mid"
+    },
+    {
+      "id": "regina-spektor-hero",
+      "title": "Hero",
+      "artist": "Regina Spektor",
+      "group": "Regina Spektor",
+      "midi": "regina_spektor/regina_spektor_hero.mid"
     }
   ]
 }
