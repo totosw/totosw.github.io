@@ -680,6 +680,13 @@
       "artist": "Regina Spektor",
       "group": "Regina Spektor",
       "midi": "regina_spektor/regina_spektor_hero.mid"
+    },
+    {
+      "id": "the-kid-laroi-justin-bieber-stay",
+      "title": "The Kid LAROI & Justin Bieber - STAY",
+      "artist": "The Kid LAROI & Justin Bieber",
+      "group": "Justin Bieber",
+      "midi": "justin_bieber/justin_bieber_stay.mid"
     }
   ]
 }
